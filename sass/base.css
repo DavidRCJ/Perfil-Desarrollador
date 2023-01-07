@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monofett&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+video {
+  position: fixed;
+  min-width: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+body header nav ul a {
+  margin: 0rem 1rem 0rem 1rem;
+  font-size: 25px;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+font-family: 'Rubik Vinyl', cursive;
+
+para juegos
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+font-family: 'Press Start 2P', cursive;
+
+tipo futurista
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+font-family: 'Gruppo', cursive;
+
+Type metal Sulg
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+font-family: 'Bungee Spice', cursive;
+
+CONSOLE
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+font-family: 'Bungee Hairline', cursive;
+
+Baras code
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+font-family: 'Libre Barcode 39 Text', cursive;
+
+game shadows
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+font-family: 'Bungee Shade', cursive;
+
+retra games
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+font-family: 'Silkscreen', cursive;
+
+sombres redonidtas
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+font-family: 'Monofett', cursive;
+
+Futurista 2
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+font-family: 'Orbitron', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+font-family: 'Chakra Petch', sans-serif;
+
+*/
+#proycts h1, body main .inicio div .titulo1 {
+  border: 15px solid transparent;
+  background-color: transparent;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 132), 0 0 0.2em rgb(255, 0, 217);
+  color: #ffffff;
+  font-size: 50px;
+}
+
+body main .inicio div img {
+  border: 15px solid transparent;
+  width: 250px;
+  height: 400px;
+  border-radius: 20%;
+  display: block;
+  margin: auto;
+}
+
+body main h2 {
+  border: 15px solid transparent;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 31, 98), 0 0 0.2em blue;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+#proycts h3, body main .inicio div h3 {
+  border: 15px solid transparent;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 98), 0 0 0.2em blue;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+body main .simulation .grid_contener_5 h3, body main .cad .grid_contener_4 h3, body main .micro .grid_contener_3 h3, body main .ide_sw .grid_contener_2 h3, body main .lenguaje_progra .grid_contener h3 {
+  border: 15px transparent;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #010000;
+  color: rgb(255, 255, 255);
+  background-color: rgb(184, 27, 82);
+}
+
+body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img, body main .micro .grid_contener_3 img, body main .ide_sw .grid_contener_2 img, body main .lenguaje_progra .grid_contener img {
+  border: 15px solid transparent;
+  width: 150px;
+  height: 150px;
+  align-items: flex-end;
+}
+
+.fote section .grid_contener_social h4 {
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #353535;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+}
+
+.fote section .grid_contener_social img {
+  width: 45px;
+  height: 45px;
+  align-items: flex-end;
+}
+
+.fote section .grid_contener_social .btn {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+body main {
+  z-index: 1;
+}
+body main .lenguaje_progra .grid_contener {
+  margin: 1em 1em 1em 1em;
+  border: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-areas: "item1 item2 item3 item4 item5 item6 item7";
+}
+body main .lenguaje_progra .grid_contener .item1 {
+  grid-area: item1;
+}
+body main .lenguaje_progra .grid_contener .item2 {
+  grid-area: item2;
+}
+body main .lenguaje_progra .grid_contener .item3 {
+  grid-area: item3;
+}
+body main .lenguaje_progra .grid_contener .item4 {
+  grid-area: item4;
+}
+body main .lenguaje_progra .grid_contener .item5 {
+  grid-area: item5;
+}
+body main .lenguaje_progra .grid_contener .item6 {
+  grid-area: item5;
+}
+body main .lenguaje_progra .grid_contener .item7 {
+  grid-area: item5;
+}
+body main .ide_sw .grid_contener_2 {
+  margin: 1em 1em 1em 1em;
+  border: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-areas: "item1 item2 item3 item4 item5 item6";
+}
+body main .ide_sw .grid_contener_2 .item1 {
+  grid-area: item1;
+}
+body main .ide_sw .grid_contener_2 .item2 {
+  grid-area: item2;
+}
+body main .ide_sw .grid_contener_2 .item3 {
+  grid-area: item3;
+}
+body main .ide_sw .grid_contener_2 .item4 {
+  grid-area: item4;
+}
+body main .ide_sw .grid_contener_2 .item5 {
+  grid-area: item5;
+}
+body main .ide_sw .grid_contener_2 .item6 {
+  grid-area: item5;
+}
+body main .ide_sw .grid_contener_2 #img_w {
+  width: 250px;
+}
+body main .micro .grid_contener_3 {
+  margin: 1em 1em 1em 1em;
+  border: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-areas: "item1 item2 item3 item4 item5 item6";
+}
+body main .micro .grid_contener_3 .item1 {
+  grid-area: item1;
+}
+body main .micro .grid_contener_3 .item2 {
+  grid-area: item2;
+}
+body main .micro .grid_contener_3 .item3 {
+  grid-area: item3;
+}
+body main .micro .grid_contener_3 .item4 {
+  grid-area: item4;
+}
+body main .micro .grid_contener_3 .item5 {
+  grid-area: item5;
+}
+body main .micro .grid_contener_3 .item6 {
+  grid-area: item5;
+}
+body main .micro .grid_contener_3 #img_w {
+  width: 250px;
+}
+body main .cad .grid_contener_4 {
+  margin: 1em 1em 1em 1em;
+  border: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-areas: "item1 item2 item3 item4 item5 item6";
+}
+body main .cad .grid_contener_4 .item1 {
+  grid-area: item1;
+}
+body main .cad .grid_contener_4 .item2 {
+  grid-area: item2;
+}
+body main .cad .grid_contener_4 .item3 {
+  grid-area: item3;
+}
+body main .cad .grid_contener_4 .item4 {
+  grid-area: item4;
+}
+body main .cad .grid_contener_4 .item5 {
+  grid-area: item5;
+}
+body main .cad .grid_contener_4 .item6 {
+  grid-area: item5;
+}
+body main .simulation .grid_contener_5 {
+  margin: 1em 1em 1em 1em;
+  border: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-areas: "item1 item2 item3 item4 item5";
+}
+body main .simulation .grid_contener_5 .item1 {
+  grid-area: item1;
+}
+body main .simulation .grid_contener_5 .item2 {
+  grid-area: item2;
+}
+body main .simulation .grid_contener_5 .item3 {
+  grid-area: item3;
+}
+body main .simulation .grid_contener_5 .item4 {
+  grid-area: item4;
+}
+body main .simulation .grid_contener_5 .item5 {
+  grid-area: item5;
+}
+body main .simulation .grid_contener_5 #img_w {
+  width: 250px;
+}
+#proycts #eco_sass {
+  width: 720px;
+  height: 720px;
+}
+#proycts #eco_sass_2 {
+  width: 450px;
+  height: 450px;
+}
+#proycts #img_one {
+  width: 300px;
+  height: 300px;
+}
+#proycts #img_one:hover {
+  transform: scale(2.5);
+}
+#proycts .rasberry .grid_contener_rasberry {
+  margin: 1em 1em 1em 1em;
+  border: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-areas: "item1 item2 item3 item4 item5" "item6 item7 item8 item9 item10";
+}
+#proycts .rasberry .grid_contener_rasberry .item_1 {
+  grid-area: item1;
+}
+#proycts .rasberry .grid_contener_rasberry .item_2 {
+  grid-area: item2;
+}
+#proycts .rasberry .grid_contener_rasberry .item_3 {
+  grid-area: item3;
+}
+#proycts .rasberry .grid_contener_rasberry .item_4 {
+  grid-area: item4;
+}
+#proycts .rasberry .grid_contener_rasberry .item_5 {
+  grid-area: item5;
+}
+#proycts .rasberry .grid_contener_rasberry .item_6 {
+  grid-area: item6;
+}
+#proycts .rasberry .grid_contener_rasberry .item_7 {
+  grid-area: item7;
+}
+#proycts .rasberry .grid_contener_rasberry .item_8 {
+  grid-area: item8;
+}
+#proycts .rasberry .grid_contener_rasberry .item_9 {
+  grid-area: item9;
+}
+#proycts .rasberry .grid_contener_rasberry .item_10 {
+  grid-area: item10;
+}
+#proycts .rasberry .grid_contener_rasberry img {
+  height: 250px;
+  width: 250px;
+}
+#proycts .rasberry .grid_contener_rasberry img:hover {
+  transform: scale(2);
+}
+
+.fote section div h3 {
+  font-family: "Gruppo", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+.fote section .grid_contener_social {
+  margin: 1em 1em 1em 1em;
+  border: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-areas: "item6 item7 item1 item2 item3 item4 item5 item8 item9";
+}
+.fote section .grid_contener_social .item_6 {
+  grid-area: item6;
+}
+.fote section .grid_contener_social .item_7 {
+  grid-area: item7;
+}
+.fote section .grid_contener_social .item_1 {
+  grid-area: item1;
+}
+.fote section .grid_contener_social .item_2 {
+  grid-area: item2;
+}
+.fote section .grid_contener_social .item_3 {
+  grid-area: item3;
+}
+.fote section .grid_contener_social .item_4 {
+  grid-area: item4;
+}
+.fote section .grid_contener_social .item_5 {
+  grid-area: item5;
+}
+.fote section .grid_contener_social .item_8 {
+  grid-area: item8;
+}
+.fote section .grid_contener_social .item_9 {
+  grid-area: item9;
+}
+
+/*# sourceMappingURL=base.css.map */

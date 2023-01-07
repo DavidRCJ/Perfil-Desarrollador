@@ -1,0 +1,20 @@
+{
+  "name": "perfil-desarrollador",
+  "version": "1.0.0",
+  "description": "Perfil personal en HTML CSS SASS Java Script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidRCJ/Perfil-Desarrollador.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidRCJ/Perfil-Desarrollador/issues"
+  },
+  "homepage": "https://github.com/DavidRCJ/Perfil-Desarrollador#readme"
+}

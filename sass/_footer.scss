@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
+.fote {
+  section {
+    div {
+      h3 {
+        font-family: "Gruppo", cursive;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+      }
+    }
+
+    .grid_contener_social {
+      margin: 1em 1em 1em 1em;
+      border: 10px;
+      display: grid;
+      gap: 5px;
+      grid-template-areas: "item6 item7 item1 item2 item3 item4 item5 item8 item9";
+
+      .item_6 {
+        grid-area: item6;
+      }
+      .item_7 {
+        grid-area: item7;
+      }
+      .item_1 {
+        grid-area: item1;
+      }
+
+      .item_2 {
+        grid-area: item2;
+      }
+
+      .item_3 {
+        grid-area: item3;
+      }
+
+      .item_4 {
+        grid-area: item4;
+      }
+
+      .item_5 {
+        grid-area: item5;
+      }
+      .item_8 {
+        grid-area: item8;
+      }
+      .item_9 {
+        grid-area: item9;
+      }
+
+      h4 {
+        @extend %grid_h4;
+      }
+      .btn {
+        @extend %botum_center;
+      }
+      img {
+        @extend %grid_img_footer;
+      }
+    }
+  }
+}

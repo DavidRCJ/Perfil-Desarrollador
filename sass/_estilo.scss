@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+/*
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+font-family: 'Rubik Vinyl', cursive;
+
+para juegos
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+font-family: 'Press Start 2P', cursive;
+
+tipo futurista
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+font-family: 'Gruppo', cursive;
+
+Type metal Sulg
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+font-family: 'Bungee Spice', cursive;
+
+CONSOLE
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+font-family: 'Bungee Hairline', cursive;
+
+Baras code
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+font-family: 'Libre Barcode 39 Text', cursive;
+
+game shadows
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+font-family: 'Bungee Shade', cursive;
+
+retra games
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+font-family: 'Silkscreen', cursive;
+
+sombres redonidtas
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+font-family: 'Monofett', cursive;
+
+Futurista 2
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+font-family: 'Orbitron', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+font-family: 'Chakra Petch', sans-serif;
+
+*/
+%titulo1 {
+  border: 15px solid transparent;
+  background-color: transparent;  
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 132), 0 0 0.2em rgb(255, 0, 217);
+  color: #ffffff;
+  font-size: 50px;  
+}
+
+%imagelogo {
+  border: 15px solid transparent;
+  width: 250px;
+  height: 400px;
+  border-radius: 20%;
+  display: block;
+  margin: auto;
+}
+
+%titulo2 {
+  border: 15px solid transparent;
+  font-size: 30px;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 31, 98), 0 0 0.2em blue;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+%titulo3 {
+  border: 15px solid transparent;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 98), 0 0 0.2em blue;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+%parrafo {
+  margin: 2rem;
+  font-size: 30px;
+  font-family: 'Chakra Petch', sans-serif;
+  text-align:justify;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 111), 0 0 0.2em rgb(80, 83, 255);
+  
+  }
+
+%grid_h3 {
+  border: 15px transparent;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #010000;
+  color: rgb(255, 255, 255);
+  background-color: rgb(184, 27, 82);
+}
+%grid_img {
+  border: 15px solid transparent;
+  width: 150px;
+  height: 150px;
+  align-items: flex-end;
+}
+
+%grid_h4 {
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #353535;
+  color: rgb(255, 255, 255);  
+  background-color: transparent;
+}
+%grid_img_footer {
+  width: 45px;
+  height: 45px;
+  align-items: flex-end;
+}
+%botum_center{
+  background-color: transparent;
+  display: flex;
+  justify-content: center
+}
+
