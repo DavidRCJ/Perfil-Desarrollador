@@ -142,9 +142,10 @@ body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img,
 }
 
 .fote section .grid_contener_social img {
-  width: 45px;
-  height: 45px;
+  width: 100px;
+  height: 100px;
   align-items: flex-end;
+  border: 20px solid transparent;
 }
 
 .fote section .grid_contener_social .btn {
@@ -357,7 +358,7 @@ body main .simulation .grid_contener_5 #img_w {
 }
 .fote section .grid_contener_social {
   margin: 1em 1em 1em 1em;
-  border: 10px;
+  border: 20px;
   display: grid;
   gap: 5px;
   grid-template-areas: "item6 item7 item1 item2 item3 item4 item5 item8 item9";
