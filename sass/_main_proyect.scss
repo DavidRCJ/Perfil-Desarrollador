@@ -22,8 +22,15 @@
     #img_one:hover {
       transform: scale(2.5);
     }
+
+    .container{
+      @extend %container_pdf;
+    }
   
     .rasberry {
+      .container{
+        @extend %container_pdf;
+      }
       .grid_contener_rasberry {
         margin: 1em 1em 1em 1em;
         border: 10px;

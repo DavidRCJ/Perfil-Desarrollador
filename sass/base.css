@@ -142,8 +142,8 @@ body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img,
 }
 
 .fote section .grid_contener_social img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   align-items: flex-end;
   border: 20px solid transparent;
 }
@@ -152,6 +152,11 @@ body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img,
   background-color: transparent;
   display: flex;
   justify-content: center;
+}
+
+#about_me .container, #proycts .rasberry .container, #proycts .container {
+  border: transparent;
+  width: 70%;
 }
 
 body main {
@@ -354,7 +359,7 @@ body main .simulation .grid_contener_5 #img_w {
 .fote section div h3 {
   font-family: "Gruppo", cursive;
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 35px;
 }
 .fote section .grid_contener_social {
   margin: 1em 1em 1em 1em;
