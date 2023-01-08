@@ -1,7 +1,42 @@
 #about_me {
-  
-   .container{
-     @extend %container_pdf;
-   }
+  h1 {
+    @extend %titulo1;
+  }
+  h2{
+    @extend %titulo2;
+  }
+  h3 {
+    @extend %titulo3;
+  }
+  p {
+    @extend %parrafo;
+  }
 
+  .container {
+    @extend %container_pdf;
+  }
+
+  .bullet {
+    p {
+      font-size: 25px;
+      padding-left: 30px;
+      text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 111),
+        0 0 0.2em rgb(80, 83, 255);
+    }
+  }
+
+  #diplomado {
+    @extend %imagen_unic;
+  }
+  #diplomado:hover {
+    transform: scale(2);
+  }
+  
+  .contener_carrusel{
+    @extend %contener_carusel;
+  }
+
+  .carusel2{
+    @extend %contener_carusel;
+  }
 }

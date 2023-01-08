@@ -73,7 +73,7 @@ font-family: 'Chakra Petch', sans-serif;
 }
 
 %titulo2 {
-  border: 15px solid transparent;
+  border: 20px solid transparent;
   font-size: 30px;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
@@ -94,7 +94,7 @@ font-family: 'Chakra Petch', sans-serif;
 
 %parrafo {
   margin: 2rem;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Chakra Petch', sans-serif;
   text-align:justify;
   color: #ffffff;
@@ -140,5 +140,23 @@ font-family: 'Chakra Petch', sans-serif;
   border: transparent;
   width: 70%;
   
+}
+
+%imagen_unic{
+  width: 320px;
+  height: 250px;
+  border-radius: 5%;
+
+}
+
+%contener_carusel{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;    
+  width: 720px;  
+  img{
+    height: 520px;
+  }
 }
 
