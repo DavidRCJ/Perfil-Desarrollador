@@ -88,13 +88,12 @@ font-family: 'Chakra Petch', sans-serif;
   font-size: 50px;
 }
 
-body main .inicio div img {
-  border: 15px solid transparent;
-  width: 250px;
-  height: 400px;
-  border-radius: 20%;
+body main .inicio div #logo_dave {
   display: block;
   margin: auto;
+  width: 220px;
+  height: 420px;
+  border-radius: 20%;
 }
 
 #about_me h2, body main h2 {
@@ -163,9 +162,9 @@ body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img,
   justify-content: center;
 }
 
-#about_me .container, #proycts .rasberry .container, #proycts .container {
+#about_me .container, #proycts .container {
   border: transparent;
-  width: 70%;
+  width: 60%;
 }
 
 #about_me #diplomado {
@@ -183,6 +182,27 @@ body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img,
 }
 #about_me .carusel2 img, #about_me .contener_carrusel img {
   height: 520px;
+}
+
+#proycts .contener_carrusel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 500px;
+}
+#proycts .contener_carrusel img {
+  height: 420px;
+}
+
+#about_me .container_curso {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#about_me .container_curso img {
+  height: 420px;
 }
 
 body main {
@@ -336,50 +356,6 @@ body main .simulation .grid_contener_5 #img_w {
 }
 #proycts #img_one:hover {
   transform: scale(2.5);
-}
-#proycts .rasberry .grid_contener_rasberry {
-  margin: 1em 1em 1em 1em;
-  border: 10px;
-  display: grid;
-  gap: 5px;
-  grid-template-areas: "item1 item2 item3 item4 item5" "item6 item7 item8 item9 item10";
-}
-#proycts .rasberry .grid_contener_rasberry .item_1 {
-  grid-area: item1;
-}
-#proycts .rasberry .grid_contener_rasberry .item_2 {
-  grid-area: item2;
-}
-#proycts .rasberry .grid_contener_rasberry .item_3 {
-  grid-area: item3;
-}
-#proycts .rasberry .grid_contener_rasberry .item_4 {
-  grid-area: item4;
-}
-#proycts .rasberry .grid_contener_rasberry .item_5 {
-  grid-area: item5;
-}
-#proycts .rasberry .grid_contener_rasberry .item_6 {
-  grid-area: item6;
-}
-#proycts .rasberry .grid_contener_rasberry .item_7 {
-  grid-area: item7;
-}
-#proycts .rasberry .grid_contener_rasberry .item_8 {
-  grid-area: item8;
-}
-#proycts .rasberry .grid_contener_rasberry .item_9 {
-  grid-area: item9;
-}
-#proycts .rasberry .grid_contener_rasberry .item_10 {
-  grid-area: item10;
-}
-#proycts .rasberry .grid_contener_rasberry img {
-  height: 250px;
-  width: 250px;
-}
-#proycts .rasberry .grid_contener_rasberry img:hover {
-  transform: scale(2);
 }
 
 #about_me .bullet p {

@@ -39,4 +39,9 @@
   .carusel2{
     @extend %contener_carusel;
   }
+
+  .container_curso{
+     @extend %contener_carusel3;
+
+  }
 }

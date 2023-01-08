@@ -1,5 +1,4 @@
 body {
-  
   main {
     z-index: 1;
     .inicio {
@@ -8,8 +7,8 @@ body {
           @extend %titulo1;
         }
       }
-      div {
-        img {
+      div{
+      #logo_dave {
           @extend %imagelogo;
         }
       }
@@ -201,5 +200,6 @@ body {
         }
       }
     }
+    
   }
 }

@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monofett&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap");
 /*
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
 font-family: 'Rubik Vinyl', cursive;
@@ -55,27 +55,27 @@ font-family: 'Chakra Petch', sans-serif;
 */
 %titulo1 {
   border: 15px solid transparent;
-  background-color: transparent;  
-  font-family: 'Orbitron', sans-serif;
+  background-color: transparent;
+  font-family: "Orbitron", sans-serif;
   text-align: center;
-  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 132), 0 0 0.2em rgb(255, 0, 217);
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 132),
+    0 0 0.2em rgb(255, 0, 217);
   color: #ffffff;
-  font-size: 50px;  
+  font-size: 50px;
 }
 
 %imagelogo {
-  border: 15px solid transparent;
-  width: 250px;
-  height: 400px;
-  border-radius: 20%;
   display: block;
   margin: auto;
+  width: 220px;
+  height: 420px;
+  border-radius: 20%;
 }
 
 %titulo2 {
   border: 20px solid transparent;
   font-size: 30px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   text-align: center;
   color: #ffffff;
   text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 31, 98), 0 0 0.2em blue;
@@ -86,7 +86,7 @@ font-family: 'Chakra Petch', sans-serif;
   border: 15px solid transparent;
   font-size: 25px;
   text-align: center;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   color: #ffffff;
   text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 98), 0 0 0.2em blue;
   padding: 1rem 0rem 1rem 0rem;
@@ -95,12 +95,12 @@ font-family: 'Chakra Petch', sans-serif;
 %parrafo {
   margin: 2rem;
   font-size: 25px;
-  font-family: 'Chakra Petch', sans-serif;
-  text-align:justify;
+  font-family: "Chakra Petch", sans-serif;
+  text-align: justify;
   color: #ffffff;
-  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 111), 0 0 0.2em rgb(80, 83, 255);
-  
-  }
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 111),
+    0 0 0.2em rgb(80, 83, 255);
+}
 
 %grid_h3 {
   border: 15px transparent;
@@ -121,42 +121,60 @@ font-family: 'Chakra Petch', sans-serif;
   font-size: 25px;
   text-align: center;
   text-shadow: 2px 2px 2px #353535;
-  color: rgb(255, 255, 255);  
+  color: rgb(255, 255, 255);
   background-color: transparent;
 }
 %grid_img_footer {
   width: 90px;
-  height: 90px;  
+  height: 90px;
   align-items: flex-end;
   border: 20px solid transparent;
 }
-%botum_center{
+%botum_center {
   background-color: transparent;
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
-%container_pdf{
+%container_pdf {
   border: transparent;
-  width: 70%;
-  
+  width: 60%;
 }
 
-%imagen_unic{
+%imagen_unic {
   width: 320px;
   height: 250px;
   border-radius: 5%;
-
 }
 
-%contener_carusel{
+%contener_carusel {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;    
-  width: 720px;  
-  img{
+  width: 50%;
+  width: 720px;
+  img {
     height: 520px;
   }
 }
 
+%contener_carusel2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 500px;
+  img {
+    height: 420px;
+  }
+}
+
+%contener_carusel3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  img {
+    height: 420px;
+  }
+}

@@ -1,85 +1,31 @@
 #proycts {
-    h1 {
-      @extend %titulo1;
-    }
-  
-    h3 {
-      @extend %titulo3;
-    }
-   
-    #eco_sass {
-      width: 720px;
-      height: 720px;
-    }
-    #eco_sass_2 {
-      width: 450px;
-      height: 450px;    
-    }
-    #img_one {
-      width: 300px;
-      height: 300px;
-    }
-    #img_one:hover {
-      transform: scale(2.5);
-    }
-
-    .container{
-      @extend %container_pdf;
-    }
-  
-    .rasberry {
-      .container{
-        @extend %container_pdf;
-      }
-      .grid_contener_rasberry {
-        margin: 1em 1em 1em 1em;
-        border: 10px;
-        display: grid;
-        gap: 5px;
-        grid-template-areas: "item1 item2 item3 item4 item5" 
-                              "item6 item7 item8 item9 item10";
-  
-        .item_1 {
-          grid-area: item1;
-        }
-        .item_2 {
-          grid-area: item2;
-        }
-        .item_3 {
-          grid-area: item3;
-        }
-        .item_4 {
-          grid-area: item4;
-        }
-        .item_5 {
-          grid-area: item5;
-        }
-        .item_6 {
-          grid-area: item6;
-        }
-        .item_7 {
-          grid-area: item7;
-        }
-        .item_8 {
-          grid-area: item8;
-        }
-        .item_9 {
-          grid-area: item9;
-        }
-        .item_10 {
-          grid-area: item10;
-        }
-        img{
-          height: 250px;
-          width: 250px;
-        }
-        img:hover{
-          transform: scale(2.0);
-        }
-        
-      }
-    }
-  
-    
+  h1 {
+    @extend %titulo1;
   }
-  
+
+  h3 {
+    @extend %titulo3;
+  }
+  .container {
+    @extend %container_pdf;
+  }
+  .contener_carrusel {
+    @extend %contener_carusel2;
+  }
+ 
+  #eco_sass {
+    width: 720px;
+    height: 720px;
+  }
+  #eco_sass_2 {
+    width: 450px;
+    height: 450px;
+  }
+  #img_one {
+    width: 300px;
+    height: 300px;
+  }
+  #img_one:hover {
+    transform: scale(2.5);
+  }
+}
