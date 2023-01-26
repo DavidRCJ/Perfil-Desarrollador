@@ -152,9 +152,9 @@ font-family: 'Chakra Petch', sans-serif;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  width: 720px;
+  width: 800px;
   img {
-    height: 520px;
+    height: 540px;
   }
 }
 
@@ -175,6 +175,16 @@ font-family: 'Chakra Petch', sans-serif;
   margin-right: auto;
   width: 50%;
   img {
-    height: 420px;
+    height: 480px;
+  }
+}
+
+%contener_carusel4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  img {
+    height: 520px;    
   }
 }

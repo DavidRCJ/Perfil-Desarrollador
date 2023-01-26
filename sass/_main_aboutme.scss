@@ -35,13 +35,20 @@
   .contener_carrusel{
     @extend %contener_carusel;
   }
-
-  .carusel2{
-    @extend %contener_carusel;
-  }
-
+  
   .container_curso{
      @extend %contener_carusel3;
 
+  }
+
+  .contener_curso_cis{
+    @extend %contener_carusel4;
+  }
+
+  .learning_carru{
+    @extend %contener_carusel;
+  }
+  .carusel_slim{
+    @extend %contener_carusel;
   }
 }

@@ -173,15 +173,15 @@ body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img,
   border-radius: 5%;
 }
 
-#about_me .carusel2, #about_me .contener_carrusel {
+#about_me .carusel_slim, #about_me .learning_carru, #about_me .contener_carrusel {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  width: 720px;
+  width: 800px;
 }
-#about_me .carusel2 img, #about_me .contener_carrusel img {
-  height: 520px;
+#about_me .carusel_slim img, #about_me .learning_carru img, #about_me .contener_carrusel img {
+  height: 540px;
 }
 
 #proycts .contener_carrusel {
@@ -202,7 +202,17 @@ body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img,
   width: 50%;
 }
 #about_me .container_curso img {
-  height: 420px;
+  height: 480px;
+}
+
+#about_me .contener_curso_cis {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#about_me .contener_curso_cis img {
+  height: 520px;
 }
 
 body main {
