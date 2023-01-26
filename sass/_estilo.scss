@@ -155,6 +155,7 @@ font-family: 'Chakra Petch', sans-serif;
   width: 800px;
   img {
     height: 540px;
+    border-radius: 5%;
   }
 }
 
@@ -166,6 +167,7 @@ font-family: 'Chakra Petch', sans-serif;
   width: 500px;
   img {
     height: 420px;
+    border-radius: 5%;
   }
 }
 
@@ -176,6 +178,7 @@ font-family: 'Chakra Petch', sans-serif;
   width: 50%;
   img {
     height: 480px;
+    border-radius: 5%;
   }
 }
 
@@ -185,6 +188,18 @@ font-family: 'Chakra Petch', sans-serif;
   margin-right: auto;
   width: 50%;
   img {
-    height: 520px;    
+    height: 520px;  
+    border-radius: 5%;
   }
+}
+  %contener_gamer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    img {
+      width: 700px;
+      height: 280px;  
+      border-radius: 10%;  
+    }
 }

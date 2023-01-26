@@ -51,4 +51,8 @@
   .carusel_slim{
     @extend %contener_carusel;
   }
+
+  .contener_games{
+    @extend %contener_gamer;
+  }
 }
