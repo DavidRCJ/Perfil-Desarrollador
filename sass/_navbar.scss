@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
-body{
-    header{   
-        
-        nav{          
-           ul{
-            a{
-                margin: 0rem 1rem 0rem 1rem;
-                font-size: 25px;
-                color: white;
-                font-family: 'Orbitron', sans-serif;
-            }
-           } 
-         }   
+body {
+  header {
+    nav {
+      ul {
+        a {
+          margin: 0rem 1rem 0rem 1rem;
+          font-size: 25px;
+          color: white;
+          font-family: "Orbitron", sans-serif;
         }
-    }  
+      }
+    }
+  }
+}

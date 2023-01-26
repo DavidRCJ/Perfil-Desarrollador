@@ -2,7 +2,7 @@
   h1 {
     @extend %titulo1;
   }
-  h2{
+  h2 {
     @extend %titulo2;
   }
   h3 {
@@ -31,28 +31,23 @@
   #diplomado:hover {
     transform: scale(2);
   }
-  
-  .contener_carrusel{
+
+  .contener_carrusel {
     @extend %contener_carusel;
   }
-  
-  .container_curso{
-     @extend %contener_carusel3;
 
+  .container_curso {
+    @extend %contener_carusel3;
   }
 
-  .contener_curso_cis{
+  .contener_curso_cis {
     @extend %contener_carusel4;
   }
 
-  .learning_carru{
+  .learning_carru {
     @extend %contener_carusel;
   }
-  .carusel_slim{
+  .carusel_slim {
     @extend %contener_carusel;
-  }
-
-  .contener_games{
-    @extend %contener_gamer;
   }
 }

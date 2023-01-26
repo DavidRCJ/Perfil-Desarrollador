@@ -1,0 +1,24 @@
+#hobies {
+  h1 {
+    @extend %titulo1;
+  }
+  h2 {
+    @extend %titulo2;
+  }
+  h3 {
+    @extend %titulo3;
+  }
+  p {
+    @extend %parrafo;
+  }
+  label {
+    @extend %labels;
+  }
+
+  .contener_games {
+    @extend %contener_gamer;
+  }
+  .movies{
+    @extend %contener_carusel_movie;
+  }
+}

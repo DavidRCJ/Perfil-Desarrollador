@@ -6,25 +6,30 @@
   h3 {
     @extend %titulo3;
   }
+
   .container {
     @extend %container_pdf;
   }
+
   .contener_carrusel {
     @extend %contener_carusel2;
   }
- 
+
   #eco_sass {
     width: 720px;
     height: 720px;
   }
+
   #eco_sass_2 {
     width: 450px;
     height: 450px;
   }
+
   #img_one {
     width: 300px;
     height: 300px;
   }
+
   #img_one:hover {
     transform: scale(2.5);
   }
