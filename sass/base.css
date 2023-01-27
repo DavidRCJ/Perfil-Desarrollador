@@ -398,7 +398,7 @@ body main .simulation .grid_contener_5 #img_w {
   transform: scale(2.5);
 }
 
-#about_me main .emtech div p .bullet p {
+#about_me main .emtech div .bullet p {
   font-size: 25px;
   padding-left: 30px;
   text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 111), 0 0 0.2em rgb(80, 83, 255);
