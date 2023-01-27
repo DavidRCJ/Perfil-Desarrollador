@@ -76,7 +76,7 @@ font-family: 'Orbitron', sans-serif;
 font-family: 'Chakra Petch', sans-serif;
 
 */
-#hobies h1, #about_me h1, #proycts h1, body main .inicio div .titulo1 {
+#hobies .Personal div h1, #about_me main .text_about div h1, #proycts h1, body main .inicio div .titulo1 {
   border: 15px solid transparent;
   background-color: transparent;
   font-family: "Orbitron", sans-serif;
@@ -94,7 +94,7 @@ body main .inicio div #logo_dave {
   border-radius: 20%;
 }
 
-#hobies h2, #about_me h2, body main h2 {
+#hobies .Hamburguesa div h2, #hobies .Series div h2, #hobies .Personal div h2, #about_me main .slim div h2, #about_me main .L_Learning div h2, #about_me main .cisco div h2, #about_me main .emtech div h2, #about_me main .text_about div h2, body main h2 {
   border: 20px solid transparent;
   font-size: 30px;
   font-family: "Orbitron", sans-serif;
@@ -104,7 +104,7 @@ body main .inicio div #logo_dave {
   padding: 1rem 0rem 1rem 0rem;
 }
 
-#hobies h3, #about_me h3, #proycts h3, body main .inicio div h3 {
+#proycts h3, body main .inicio div h3 {
   border: 15px solid transparent;
   font-size: 25px;
   text-align: center;
@@ -114,23 +114,13 @@ body main .inicio div #logo_dave {
   padding: 1rem 0rem 1rem 0rem;
 }
 
-#hobies p, #about_me p {
+#hobies .Hamburguesa div p, #hobies .Series div p, #hobies .Personal div p, #about_me main .slim div p, #about_me main .L_Learning div p, #about_me main .cisco div p, #about_me main .emtech div p, #about_me main .text_about div p {
   margin: 2rem;
   font-size: 25px;
   font-family: "Chakra Petch", sans-serif;
   text-align: justify;
   color: #ffffff;
   text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 111), 0 0 0.2em rgb(80, 83, 255);
-}
-
-#hobies label {
-  border: 15px solid transparent;
-  font-size: 15px;
-  text-align: center;
-  font-family: "Orbitron", sans-serif;
-  color: #ffffff;
-  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 98), 0 0 0.2em blue;
-  padding: 1rem 0rem 1rem 0rem;
 }
 
 body main .simulation .grid_contener_5 h3, body main .cad .grid_contener_4 h3, body main .micro .grid_contener_3 h3, body main .ide_sw .grid_contener_2 h3, body main .lenguaje_progra .grid_contener h3 {
@@ -170,94 +160,86 @@ body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img,
   justify-content: center;
 }
 
-#about_me .container, #proycts .container {
+#about_me main .text_about .container, #proycts .container {
   border: transparent;
-  width: 60%;
+  width: 70%;
 }
 
-#about_me #diplomado {
-  width: 320px;
-  height: 250px;
-  border-radius: 5%;
-}
-
-#about_me .carusel_slim, #about_me .learning_carru, #about_me .contener_carrusel {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  width: 800px;
-}
-#about_me .carusel_slim img, #about_me .learning_carru img, #about_me .contener_carrusel img {
-  height: 540px;
-  border-radius: 5%;
-}
-
-#proycts .contener_carrusel {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  width: 500px;
-}
-#proycts .contener_carrusel img {
-  height: 420px;
-  border-radius: 5%;
-}
-
-#about_me .container_curso {
+#about_me main .slim .carusel_slim, #about_me main .emtech .contener_carrusel {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-#about_me .container_curso img {
-  height: 480px;
+#about_me main .slim .carusel_slim img, #about_me main .emtech .contener_carrusel img {
+  height: 500px;
   border-radius: 5%;
 }
 
-#about_me .contener_curso_cis {
+#about_me main .L_Learning .learning_carru, #proycts .contener_carrusel {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-#about_me .contener_curso_cis img {
+#about_me main .L_Learning .learning_carru img, #proycts .contener_carrusel img {
   height: 520px;
   border-radius: 5%;
 }
 
-#hobies .contener_games {
+#about_me main .emtech .container_curso {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#about_me main .emtech .container_curso img {
+  height: 480px;
+  border-radius: 5%;
+}
+
+#about_me main .cisco .contener_curso_cis {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#about_me main .cisco .contener_curso_cis img {
+  height: 520px;
+  border-radius: 5%;
+}
+
+#hobies .Personal .contener_games {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   height: 240px;
 }
-#hobies .contener_games img {
+#hobies .Personal .contener_games img {
   width: 320px;
   height: 200px;
   border-radius: 10%;
 }
 
-#hobies .movies {
+#hobies .Series .movies {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
 }
-#hobies .movies img {
+#hobies .Series .movies img {
   height: 340px;
   border-radius: 5%;
 }
 
-#hobies .carrusel_hambur {
+#hobies .Hamburguesa .carrusel_hambur {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
 }
-#hobies .carrusel_hambur img {
+#hobies .Hamburguesa .carrusel_hambur img {
   height: 400px;
   width: 200px;
   border-radius: 5%;
@@ -416,13 +398,10 @@ body main .simulation .grid_contener_5 #img_w {
   transform: scale(2.5);
 }
 
-#about_me .bullet p {
+#about_me main .emtech div p .bullet p {
   font-size: 25px;
   padding-left: 30px;
   text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 111), 0 0 0.2em rgb(80, 83, 255);
-}
-#about_me #diplomado:hover {
-  transform: scale(2);
 }
 .fote section div h3 {
   font-family: "Gruppo", cursive;

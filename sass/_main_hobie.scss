@@ -1,28 +1,47 @@
 #hobies {
-  h1 {
-    @extend %titulo1;
-  }
-  h2 {
-    @extend %titulo2;
-  }
-  h3 {
-    @extend %titulo3;
-  }
-  p {
-    @extend %parrafo;
-  }
-  label {
-    @extend %labels;
+  .Personal {
+    div {
+      h1 {
+        @extend %titulo1;
+      }
+      h2 {
+        @extend %titulo2;
+      }
+      p {
+        @extend %parrafo;
+      }
+    }
+
+    .contener_games {
+      @extend %contener_gamer;
+    }
   }
 
-  .contener_games {
-    @extend %contener_gamer;
+  .Series {
+    div {
+      h2 {
+        @extend %titulo2;
+      }
+      p {
+        @extend %parrafo;
+      }
+    }
+    .movies {
+      @extend %contener_carusel_movie;
+    }
   }
-  .movies{
-    @extend %contener_carusel_movie;
-  }
-  .carrusel_hambur{
-    @extend %contener_carusel_hamburger;
 
+  .Hamburguesa {
+    div {
+      h2 {
+        @extend %titulo2;
+      }
+      p {
+        @extend %parrafo;
+      }
+    }
+    .carrusel_hambur {
+      @extend %contener_carusel_hamburger;
+    }
   }
 }

@@ -1,53 +1,98 @@
 #about_me {
-  h1 {
-    @extend %titulo1;
-  }
-  h2 {
-    @extend %titulo2;
-  }
-  h3 {
-    @extend %titulo3;
-  }
-  p {
-    @extend %parrafo;
-  }
-
-  .container {
-    @extend %container_pdf;
-  }
-
-  .bullet {
-    p {
-      font-size: 25px;
-      padding-left: 30px;
-      text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 111),
-        0 0 0.2em rgb(80, 83, 255);
+  main {
+    .text_about {
+      div {
+        h1 {
+          @extend %titulo1;
+        }
+      }
+      div {
+        h2 {
+          @extend %titulo2;
+        }
+        p {
+          @extend %parrafo;
+        }
+      }
+      .container {
+        @extend %container_pdf;
+      }
     }
-  }
+    .emtech {
+      div {
+        h2 {
+          @extend %titulo2;
+        }
+      }
+      .container_curso {
+        @extend %contener_carusel3;
+      }
+      div {
+        p {
+          @extend %parrafo;
+        }
+        p {
+          .bullet {
+            p {
+              font-size: 25px;
+              padding-left: 30px;
+              text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 111),
+                0 0 0.2em rgb(80, 83, 255);
+            }
+          }
+        }
+      }
+      div {
+        p {
+          @extend %parrafo;
+        }
+      }
+      .contener_carrusel {
+        @extend %contener_carusel;
+      }
+    }
 
-  #diplomado {
-    @extend %imagen_unic;
-  }
-  #diplomado:hover {
-    transform: scale(2);
-  }
+    .cisco {
+      div {
+        h2 {
+          @extend %titulo2;
+        }
+        p {
+          @extend %parrafo;
+        }
+      }
+      .contener_curso_cis {
+        @extend %contener_carusel4;
+      }
+    }
 
-  .contener_carrusel {
-    @extend %contener_carusel;
-  }
+    .L_Learning {
+      div {
+        h2 {
+          @extend %titulo2;
+        }
+        p {
+          @extend %parrafo;
+        }
+      }
+      .learning_carru {
+        @extend %contener_carusel2;
+      }
+    }
+    .slim {
+      div {
+        h2 {
+          @extend %titulo2;
+        }
+        p {
+          @extend %parrafo;
+        }
+      }
+      .carusel_slim {
+        @extend %contener_carusel;
+     }
+    }
 
-  .container_curso {
-    @extend %contener_carusel3;
-  }
-
-  .contener_curso_cis {
-    @extend %contener_carusel4;
-  }
-
-  .learning_carru {
-    @extend %contener_carusel;
-  }
-  .carusel_slim {
-    @extend %contener_carusel;
+    
   }
 }
