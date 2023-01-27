@@ -219,9 +219,22 @@ font-family: 'Chakra Petch', sans-serif;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
   img {
     height: 340px;
+    border-radius: 5%;
+  }
+}
+
+
+%contener_carusel_hamburger {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  img {
+    height: 400px;
+    width: 200px;
     border-radius: 5%;
   }
 }

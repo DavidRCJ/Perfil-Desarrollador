@@ -244,10 +244,22 @@ body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img,
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
 }
 #hobies .movies img {
   height: 340px;
+  border-radius: 5%;
+}
+
+#hobies .carrusel_hambur {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+#hobies .carrusel_hambur img {
+  height: 400px;
+  width: 200px;
   border-radius: 5%;
 }
 
