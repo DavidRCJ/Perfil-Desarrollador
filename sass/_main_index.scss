@@ -200,5 +200,42 @@ body {
         }
       }
     }
+
+    .automotriz {
+      .grid_contener_6 {
+        margin: 1em 1em 1em 1em;
+        border: 10px;
+        display: grid;
+        gap: 5px;
+        grid-template-areas: "item1 item2 item3 item4 item5";
+        .item1 {
+          grid-area: item1;
+        }
+        .item2 {
+          grid-area: item2;
+        }
+        .item3 {
+          grid-area: item3;
+        }
+        .item4 {
+          grid-area: item4;
+        }
+        .item5 {
+          grid-area: item5;
+        }
+        h3 {
+          @extend %grid_h3;
+        }
+        #img_w {
+          width: 250px;
+        }
+        img {
+          @extend %grid_img;
+        }
+      }
+    }
   }
-}
+
+
+  }
+

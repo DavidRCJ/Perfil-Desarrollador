@@ -24,7 +24,8 @@ video {
   top: 0;
   left: 0;
   z-index: -1;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 body header nav ul a {
@@ -32,7 +33,9 @@ body header nav ul a {
   font-size: 25px;
   color: white;
   font-family: "Orbitron", sans-serif;
-} /*
+}
+
+/*
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
 font-family: 'Rubik Vinyl', cursive;
 
@@ -123,7 +126,7 @@ body main .inicio div #logo_dave {
   text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 111), 0 0 0.2em rgb(80, 83, 255);
 }
 
-body main .simulation .grid_contener_5 h3, body main .cad .grid_contener_4 h3, body main .micro .grid_contener_3 h3, body main .ide_sw .grid_contener_2 h3, body main .lenguaje_progra .grid_contener h3 {
+body main .automotriz .grid_contener_6 h3, body main .simulation .grid_contener_5 h3, body main .cad .grid_contener_4 h3, body main .micro .grid_contener_3 h3, body main .ide_sw .grid_contener_2 h3, body main .lenguaje_progra .grid_contener h3 {
   border: 15px transparent;
   font-size: 25px;
   text-align: center;
@@ -132,7 +135,7 @@ body main .simulation .grid_contener_5 h3, body main .cad .grid_contener_4 h3, b
   background-color: rgb(184, 27, 82);
 }
 
-body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img, body main .micro .grid_contener_3 img, body main .ide_sw .grid_contener_2 img, body main .lenguaje_progra .grid_contener img {
+body main .automotriz .grid_contener_6 img, body main .simulation .grid_contener_5 img, body main .cad .grid_contener_4 img, body main .micro .grid_contener_3 img, body main .ide_sw .grid_contener_2 img, body main .lenguaje_progra .grid_contener img {
   border: 15px solid transparent;
   width: 150px;
   height: 150px;
@@ -382,6 +385,31 @@ body main .simulation .grid_contener_5 .item5 {
 body main .simulation .grid_contener_5 #img_w {
   width: 250px;
 }
+body main .automotriz .grid_contener_6 {
+  margin: 1em 1em 1em 1em;
+  border: 10px;
+  display: grid;
+  gap: 5px;
+  grid-template-areas: "item1 item2 item3 item4 item5";
+}
+body main .automotriz .grid_contener_6 .item1 {
+  grid-area: item1;
+}
+body main .automotriz .grid_contener_6 .item2 {
+  grid-area: item2;
+}
+body main .automotriz .grid_contener_6 .item3 {
+  grid-area: item3;
+}
+body main .automotriz .grid_contener_6 .item4 {
+  grid-area: item4;
+}
+body main .automotriz .grid_contener_6 .item5 {
+  grid-area: item5;
+}
+body main .automotriz .grid_contener_6 #img_w {
+  width: 250px;
+}
 #proycts #eco_sass {
   width: 720px;
   height: 720px;
@@ -441,6 +469,4 @@ body main .simulation .grid_contener_5 #img_w {
 }
 .fote section .grid_contener_social .item_9 {
   grid-area: item9;
-}
-
-/*# sourceMappingURL=base.css.map */
+}/*# sourceMappingURL=base.css.map */
