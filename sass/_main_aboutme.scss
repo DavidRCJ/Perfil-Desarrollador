@@ -17,29 +17,25 @@
       }
     }
 
-    .emtech1 {
+    .titulos_2{
+      div{
+        h2{@extend %titulo2;}
+      }
+    }
+
+    .iteso{
       div {
         h2 {
           @extend %titulo2;}
        
         p {
-          @extend %parrafo;
-        }
-        p {
-          @extend %parrafo;
-        }
-        p {
-          @extend %parrafo;
-        }
-        
+          @extend %parrafo;  }    
       }
-      div {
-      .contener_currusel {
-        @extend %contener_carusel2;
+      .contener_carrusel_cripto{
+       @extend %contener_carusel5;
+       }
       }
-
-    }
-  }
+   
 
   .emtech {
       div {

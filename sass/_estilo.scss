@@ -200,6 +200,17 @@ font-family: 'Chakra Petch', sans-serif;
     border-radius: 5%;
   }
 }
+
+%contener_carusel5 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  img {
+    height: 520px;
+    border-radius: 5%;
+  }
+}
 %contener_gamer {
   display: block;
   margin-left: auto;
