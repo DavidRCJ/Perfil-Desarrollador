@@ -17,7 +17,31 @@
       }
     }
 
-    .emtech {
+    .emtech1 {
+      div {
+        h2 {
+          @extend %titulo2;}
+       
+        p {
+          @extend %parrafo;
+        }
+        p {
+          @extend %parrafo;
+        }
+        p {
+          @extend %parrafo;
+        }
+        
+      }
+      div {
+      .contener_currusel {
+        @extend %contener_carusel2;
+      }
+
+    }
+  }
+
+  .emtech {
       div {
         h2 {
           @extend %titulo2;
@@ -44,8 +68,8 @@
           @extend %parrafo;         
        }
       }
-      .contener_carrusel {
-        @extend %contener_carusel;
+      .container_curso {
+        @extend %contener_carusel2;
       }
     }
     
