@@ -168,24 +168,24 @@ body main .automotriz .grid_contener_6 img, body main .simulation .grid_contener
   width: 70%;
 }
 
-#about_me main .slim .carusel_slim, #about_me main .emtech .contener_carrusel {
+#about_me main .slim .carusel_slim {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-#about_me main .slim .carusel_slim img, #about_me main .emtech .contener_carrusel img {
+#about_me main .slim .carusel_slim img {
   height: 500px;
   border-radius: 5%;
 }
 
-#about_me main .L_Learning .learning_carru, #proycts .contener_carrusel {
+#about_me main .L_Learning .learning_carru, #about_me main .emtech .container_curso, #proycts .contener_carrusel {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-#about_me main .L_Learning .learning_carru img, #proycts .contener_carrusel img {
+#about_me main .L_Learning .learning_carru img, #about_me main .emtech .container_curso img, #proycts .contener_carrusel img {
   height: 520px;
   border-radius: 5%;
 }
@@ -225,14 +225,14 @@ body main .automotriz .grid_contener_6 img, body main .simulation .grid_contener
   border-radius: 10%;
 }
 
-#hobies .Series .movies {
+#hobies .Series .movies, #about_me main .iteso .cripto {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
 }
-#hobies .Series .movies img {
-  height: 340px;
+#hobies .Series .movies img, #about_me main .iteso .cripto img {
+  height: 450px;
   border-radius: 5%;
 }
 

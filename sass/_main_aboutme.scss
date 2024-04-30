@@ -15,29 +15,19 @@
       .container {
         @extend %container_pdf;
       }
-    }
-
-    .titulos_2{
       div{
         h2{@extend %titulo2;}
       }
     }
 
-    .iteso{
-      div {
-        h2 {
-          @extend %titulo2;}
-       
-        p {
-          @extend %parrafo;  }    
+    .iteso{     
+      .cripto{
+        @extend %contener_carusel_movie;
       }
-      .contener_carrusel_cripto{
-       @extend %contener_carusel5;
-       }
-      }
-   
+    }
 
-  .emtech {
+ 
+   .emtech {
       div {
         h2 {
           @extend %titulo2;
