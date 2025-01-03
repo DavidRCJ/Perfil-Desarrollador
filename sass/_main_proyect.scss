@@ -13,10 +13,7 @@
     }
     p{
       @extend %parrafo;
-    }
- }
-
-  
+      }      
 
   .container {
     @extend %container_pdf;
@@ -44,4 +41,5 @@
   #img_one:hover {
     transform: scale(2.5);
   }
+}
 }
