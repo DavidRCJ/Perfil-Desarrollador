@@ -7,6 +7,16 @@
   h3 {
     @extend %titulo3;
   }
+.DCU{
+    h2{
+      @extend %titulo2;
+    }
+    p{
+      @extend %parrafo;
+    }
+ }
+
+  
 
   .container {
     @extend %container_pdf;

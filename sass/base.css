@@ -97,7 +97,7 @@ body main .inicio div #logo_dave {
   border-radius: 20%;
 }
 
-#hobies .Hamburguesa div h2, #hobies .Series div h2, #hobies .Personal div h2, #about_me main .slim div h2, #about_me main .L_Learning div h2, #about_me main .cisco div h2, #about_me main .emtech div h2, #about_me main .text_about div h2, body main h2 {
+#hobies .Hamburguesa div h2, #hobies .Series div h2, #hobies .Personal div h2, #about_me main .slim div h2, #about_me main .L_Learning div h2, #about_me main .cisco div h2, #about_me main .emtech div h2, #about_me main .text_about div h2, #proycts .DCU div h2, body main h2 {
   border: 20px solid transparent;
   font-size: 30px;
   font-family: "Orbitron", sans-serif;
@@ -117,7 +117,7 @@ body main .inicio div #logo_dave {
   padding: 1rem 0rem 1rem 0rem;
 }
 
-#hobies .Hamburguesa div p, #hobies .Series div p, #hobies .Personal div p, #about_me main .slim div p, #about_me main .L_Learning div p, #about_me main .cisco div p, #about_me main .emtech div p, #about_me main .text_about div p {
+#hobies .Hamburguesa div p, #hobies .Series div p, #hobies .Personal div p, #about_me main .slim div p, #about_me main .L_Learning div p, #about_me main .cisco div p, #about_me main .emtech div p, #about_me main .text_about div p, #proycts .DCU div p {
   margin: 2rem;
   font-size: 25px;
   font-family: "Chakra Petch", sans-serif;
